@@ -1,0 +1,12 @@
+body {
+	background-image: url("dog.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100vw auto;
+}
+@media screen and (max-aspect-ratio: 2/3) {
+	body {
+		background-size: auto 100vh;
+	}
+}
