@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+
+}
+
+article {
+	display: flex;
+}
+
+header {
+	position: fixed;
+}
+
+h1{
+	font-size: 50px;
+	letter-spacing : 4px;
+}
+section{
+	display: flex;
+	width: calc(100vw / 10);
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	
+}
+a {
+	text-decoration-line: none;
+	color: black;
+}
+.a:hover {
+	background-color: #FFA800 ;
+}
+
+.b:hover {
+	background-color: #FFB11A ;
+}
+
+.c:hover {
+	background-color: #FFBB38 ;
+}
+
+.d:hover {
+	background-color: #FFC34E ;
+}
+
+.e:hover {
+	background-color: #FECB67 ;
+}
+
+.f:hover {
+	background-color: #FFD37F ;
+}
+
+.g:hover {
+	background-color: #FFE28B ;
+}
+
+.h:hover {
+	background-color: #FFE28B ;
+}
+
+.i:hover {
+	background-color:#FFEFB3 ;
+}
+
+.j:hover {
+	background-color: #FFEFB3 ;
+}
+
+.a {
+	background-color: #F4C200 ;
+}
+.b {
+	background-color: #FFCE00 ;
+}
+.c {
+	background-color: #FFD93B;
+}
+.d {
+	background-color: #FFDE54;
+} 
+.e {
+	background-color: #FFE36C;
+}
+.f {
+	background-color: #FFE784;
+}
+.g {
+	background-color: #FFEC9D;
+}
+.h {
+	background-color: #FFF1B5;
+}
+.i {
+	background-color: #FFF6CE;
+}
+.j {
+	background-color: #FFFAE6;
+}

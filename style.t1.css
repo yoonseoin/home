@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+	background-color: #002150;  
+;
+}
+
+img {
+	width: 50vw;
+	height: auto;
+	margin: auto;
+    display: block;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 10px 10px 20px 8px;
+    max-width: 440px;
+}
+
+header {
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+}
+p {
+	justify-content: center;
+	text-align: center;
+	color: white;
+	padding: 20px;
+	word-break: keep-all;
+	letter-spacing: 1px;
+	line-height: 25px;
+	
+}
+section {
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+
+@media screen and (max-width: 600px) {
+	img {
+		width: 270px;
+		height: 370px;
+		padding: 10px;
+	}
+	header {
+		font-size: 15px;
+	}
+}

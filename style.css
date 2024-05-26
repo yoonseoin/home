@@ -1,0 +1,41 @@
+* {
+	background-color: #002150 ;
+	padding: 0;
+	margin: 0;
+	}
+
+ul {
+	display: flex;
+	width: ;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+li {
+	list-style: none;
+	color: #EDF3FF ;
+	font-size: 20vw;
+	font-weight: bold;
+	margin: 30px;
+}
+
+a {
+	text-decoration: none;
+}
+.h:hover {
+      color:#FFD93B ;
+      transition: 0.3s;
+      transform: scale(1.2);
+  }
+
+@media screen and (max-width: 600px) {
+	li{
+		font-size: 50pt;
+	}
+	li:hover {
+      	color:#54C2FF ;
+      }
+
+}
