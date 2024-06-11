@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+
+}
+
+article {
+	display: flex;
+}
+
+header {
+	position: fixed;
+}
+
+h1{
+	font-size: 50px;
+	letter-spacing : 4px;
+}
+section{
+	display: flex;
+	width: calc(100vw / 4);
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	
+}
+a {
+	text-decoration-line: none;
+	color: black;
+}
+.a:hover {
+	background-color: #CC3267;
+}
+
+.b:hover {
+	background-color: #DE5B88;
+}
+
+.c:hover {
+	background-color: #E36E97;
+}
+
+.d:hover {
+	background-color: #E380A2;
+}
+
+.a {
+	background-color:  #FF90B6;
+}
+.b {
+	background-color: #FCABC7;
+}
+.c {
+	background-color: #FEBAD1;
+}
+.d {
+	background-color: #FFC7DA;
+} 
